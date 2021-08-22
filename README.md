@@ -16,7 +16,7 @@ Python3 should be already installed.
     ```
     pip install -r requirements.txt
     ```
-3) add .env file in the directory of the tool:
+3) add .env file in the directory of the service:
     ```
     SECRET_KEY=<your secret key for the database>
     DEBUG=<True> if you want to enable DEBUG
