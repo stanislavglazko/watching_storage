@@ -1,11 +1,11 @@
 # Watching storage
-It is a service for the employees of the bank 'Siania'.
+It is a service for the employees of the bank 'Shine'.
 
 If you don't work for this company, you are not able to use this service.
 But you are able to read the code of service.
 
-If you are from 'Siania', you can connect to the database ang get information 
-about colleagues who visited the storage. 
+If you are from 'Shine', you can connect to the database ang get information 
+about colleagues who visited the storage.
 
 ### How to install
 
