@@ -21,6 +21,13 @@ Python3 should be already installed.
     SECRET_KEY=<your secret key for the database>
     DEBUG=<True> if you want to enable DEBUG
     DEBUG=<False> if you want to disable DEBUG
+    ENGINE=<engine>
+    HOST=<host>
+    PORT=<port>
+    NAME=<name>
+    USER=<username>
+    PASSWORD=<password>
+    ALLOWED_HOSTS=<list of allowed hosts>
 
     ```
 ### How to use
