@@ -1,9 +1,11 @@
 import os
 
-from dotenv import load_dotenv
 from environs import Env
 
-load_dotenv()
+
+env = Env()
+env.read_env()
+
 
 DATABASES = {
     'default': {
@@ -20,10 +22,7 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-env = Env()
-env.read_env()
-
-DEBUG = env.bool('DEBUG')
+DEBUG = env.bool('DEBUG', False)
 
 ROOT_URLCONF = 'project.urls'
 
